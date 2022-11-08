@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/micolorfondos"
+    android:background="@color/ColorFondo"
     tools:context=".Foto">
 
     <TextView
@@ -50,6 +50,7 @@
         android:id="@+id/btnfoto"
         android:layout_width="141dp"
         android:layout_height="61dp"
+        android:backgroundTint="#EDBF7B"
         android:text="FOTO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,6 +63,7 @@
         android:id="@+id/btnguardar"
         android:layout_width="141dp"
         android:layout_height="76dp"
+        android:backgroundTint="#EDBF7B"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.529"
