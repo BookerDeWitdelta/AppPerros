@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/textView11"
         style="@style/titulo"
-        android:layout_width="399dp"
+        android:layout_width="0dp"
         android:layout_height="68dp"
         android:background="#EDBF7B"
         android:text="PaseanDog"
