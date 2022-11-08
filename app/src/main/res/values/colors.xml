@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="micolor">#A6530B</color>
     <color name="micolorfondos">#B3F3EB</color>
+    <color name="ColorFondo">#FFFFFF</color>
 </resources>
