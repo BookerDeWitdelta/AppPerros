@@ -97,26 +97,27 @@
         android:layout_height="48dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="379dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="381dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="172dp"
-        android:layout_height="46dp"
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="174dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="210dp"
-        tools:layout_editor_absoluteY="379dp" />
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="381dp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="23dp"
+        android:layout_height="32dp"
         android:text="O"
-        android:textSize="16sp"
-        tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="396dp" />
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="397dp" />
 
     <TextView
         android:id="@+id/textView4"
