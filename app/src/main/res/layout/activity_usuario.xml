@@ -91,14 +91,18 @@
         app:layout_constraintVertical_bias="0.158" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/llegadato"
         android:layout_width="140dp"
         android:layout_height="25dp"
         android:text="Nombre"
         android:textColor="#0B0A0A"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="173dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.245" />
 
     <TextView
         android:id="@+id/textView13"
@@ -107,8 +111,12 @@
         android:text="Celular"
         android:textColor="#0B0A0A"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="209dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293" />
 
     <TextView
         android:id="@+id/textView15"
@@ -117,8 +125,12 @@
         android:text="Correo"
         android:textColor="#0B0A0A"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="245dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.351" />
 
     <TextView
         android:id="@+id/textView14"
@@ -127,8 +139,12 @@
         android:text="Direccion"
         android:textColor="#0B0A0A"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="283dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
 
     <ImageView
         android:id="@+id/imageView11"
