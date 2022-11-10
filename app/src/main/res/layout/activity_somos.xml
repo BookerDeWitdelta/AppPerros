@@ -43,7 +43,7 @@
         android:fontFamily="@font/aclonica"
         android:gravity="start|top"
         android:inputType="textMultiLine"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor "
+        android:text="HOLA MUNDO HOLA MUNDO HOLA MUNDO"
         android:textAlignment="center"
         android:textColor="@color/micolor"
         android:textSize="24sp"
