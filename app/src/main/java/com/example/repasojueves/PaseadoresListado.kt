@@ -22,7 +22,7 @@ class PaseadoresListado : AppCompatActivity() {
         agregaradaptador()
     }
     private fun agregaradaptador(){
-        recycler=binding.listarecycler
+        recycler=binding.listrecycler
         recycler.layoutManager=LinearLayoutManager(this)
         recycler.adapter=AdaptadorPaseador(this,listap)
     }

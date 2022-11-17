@@ -2,158 +2,150 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_constraintLeft_toLeftOf="parent"
-    android:layout_constraintRight_toRightOf="parent"
-    android:layout_constraintTop_toToptOf="parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@color/micolorfondos">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="674dp"
-        android:layout_height="1067dp"
-        android:background="@color/micolorfondos"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/cardView"
-            android:layout_width="11dp"
-            android:layout_height="324dp"
-            android:rotationX="4"
-            app:cardBackgroundColor="@color/micolorfondos"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.5">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/micolorfondos"
+            android:textAlignment="center">
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="287dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/informacionpaseador2"
+                android:text="@string/informacionpaseador"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView10"
+                app:layout_constraintVertical_bias="0.021"
+                tools:text="Informacion general del Paseador..." />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="24dp"
+                android:contentDescription="@string/imagen2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView16"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="419dp"
+                android:layout_height="39dp"
+                android:layout_marginTop="28dp"
+                android:text="@string/informaci_n_detallada_del_profesional"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/regresar"
+                android:layout_width="130dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/splash"
+                android:text="@string/regresar"
+                android:textAlignment="center"
+                android:textColor="@color/ColorFondo"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/telefono" />
+
+            <TextView
+                android:id="@+id/txtnombre"
+                android:layout_width="272dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/splash"
+                android:textAlignment="center"
+                android:textColor="@color/ColorFondo"
+                android:textColorHint="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView12"
+                tools:text="Nombre" />
+
+            <TextView
+                android:id="@+id/txtcorreo"
+                android:layout_width="274dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/splash"
+                android:text="@string/email"
+                android:textAlignment="center"
+                android:textColor="@color/ColorFondo"
+                android:textColorHint="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtnombre" />
+
+            <TextView
+                android:id="@+id/telefono"
+                android:layout_width="276dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/splash"
+                android:text="@string/contacto_movil"
+                android:textAlignment="center"
+                android:textColor="@color/ColorFondo"
+                android:textColorHint="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtcorreo" />
+
+            <Button
+                android:id="@+id/contactar"
+                android:layout_width="129dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/splash"
+                android:text="@string/contactar"
+                android:textAlignment="center"
+                android:textColor="@color/ColorFondo"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/regresar"
+                app:layout_constraintTop_toBottomOf="@+id/telefono" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-        <ImageView
-            android:id="@+id/imageusuario"
-            android:layout_width="99dp"
-            android:layout_height="73dp"
-            tools:layout_editor_absoluteX="57dp"
-            tools:layout_editor_absoluteY="58dp"
-            tools:srcCompat="@drawable/logo" />
-
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="504dp"
-            android:layout_height="167dp"
-            android:
-            android:contentDescription="InformacionPaseador"
-            android:text="InformacionPaseador"
-            android:textAlignment="center"
-            android:textSize="30sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.822"
-            tools:text="Informacion general del Paseador..." />
-
-        <ImageView
-            android:id="@+id/imageView10"
-            android:layout_width="254dp"
-            android:layout_height="200dp"
-            tools:layout_editor_absoluteX="219dp"
-            tools:layout_editor_absoluteY="329dp"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:
-            android:text="Información Detallada del Profesional"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="40sp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="191dp" />
-
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="130dp"
-            android:layout_height="42dp"
-            android:
-            android:background="@drawable/splash"
-            android:text="Regresar"
-            android:textAlignment="center"
-            android:textColor="@color/ColorFondo"
-            android:textColorHint="@color/black"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="273dp"
-            tools:layout_editor_absoluteY="929dp" />
-
-        <TextView
-            android:id="@+id/txtnombre"
-            android:layout_width="272dp"
-            android:layout_height="41dp"
-            android:
-            android:background="@drawable/splash"
-            android:textAlignment="center"
-            android:textColor="@color/ColorFondo"
-            android:textColorHint="@color/black"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="212dp"
-            tools:layout_editor_absoluteY="540dp"
-            tools:text="Nombre" />
-
-        <TextView
-            android:id="@+id/txtcorreo"
-            android:layout_width="274dp"
-            android:layout_height="40dp"
-            android:
-            android:background="@drawable/splash"
-            android:text="Email"
-            android:textAlignment="center"
-            android:textColor="@color/ColorFondo"
-            android:textColorHint="@color/black"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="212dp"
-            tools:layout_editor_absoluteY="592dp" />
-
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="276dp"
-            android:layout_height="40dp"
-            android:background="@drawable/splash"
-            android:text="Contacto Movil"
-            android:textAlignment="center"
-            android:textColor="@color/ColorFondo"
-            android:textColorHint="@color/black"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="210dp"
-            tools:layout_editor_absoluteY="639dp" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="129dp"
-            android:layout_height="41dp"
-            android:
-            android:background="@drawable/splash"
-            android:text="Contactar"
-            android:textAlignment="center"
-            android:textColor="@color/ColorFondo"
-            android:textColorHint="@color/black"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="273dp"
-            tools:layout_editor_absoluteY="979dp" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

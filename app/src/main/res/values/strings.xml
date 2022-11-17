@@ -10,4 +10,24 @@
     <string name="Boton">boton</string>
     <string name="usuario">Usuario</string>
     <string name="clave">Clave</string>
+    <string name="informacionpaseador">InformacionPaseador</string>
+    <string name="informacionpaseador2">InformacionPaseador</string>
+    <string name="informaci_n_detallada_del_profesional">Información Detallada del Profesional</string>
+    <string name="contactar">Contactar</string>
+    <string name="email">Email</string>
+    <string name="contacto_movil">Contacto Movil</string>
+    <string name="regresar">Regresar</string>
+    <string name="imagen2">imagen2</string>
+    <string name="imagen">imagen</string>
+    <string name="detallar">Detallar</string>
+    <string name="correo_del_profesional">Correo del Profesional</string>
+    <string name="contactar2">Contactar</string>
+    <string name="contactar3">Contactar</string>
+    <string name="image2">image2</string>
+    <string name="image1">image1</string>
+    <string name="informaci_n_general_profesionales">Información General Profesionales</string>
+    <string name="detallar2">Detallar</string>
+    <string name="image3">image1</string>
+    <string name="detallar3">Detallar</string>
+    <string name="contactar1">Contactar</string>
 </resources>
