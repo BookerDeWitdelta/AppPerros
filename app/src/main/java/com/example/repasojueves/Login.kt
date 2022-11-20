@@ -18,6 +18,9 @@ class Login : AppCompatActivity() {
         binding.btnlogin.setOnClickListener {
             validar()
         }
+        binding.txtrecuperar.setOnClickListener {
+            recuperar()
+        }
     }
     fun validar(){
         val txtusu=binding.txtusuario.text.toString()
@@ -28,6 +31,7 @@ class Login : AppCompatActivity() {
         if(txtusu.isEmpty()){
             binding.txtusuario.setHint("Ingresar el usuario")
         }
+
         else if(txtcla.isEmpty()){
             binding.txtclave.setHint("Ingresar clave")
             binding.txtclave.setHintTextColor(Color.RED)
@@ -41,5 +45,9 @@ class Login : AppCompatActivity() {
         else{
             Toast.makeText(this,"Sus datos no son correctos",Toast.LENGTH_LONG).show()
         }
+    }
+    fun recuperar(){
+        val intent=Intent(this,RecuperarContrase::class.java)
+        startActivity(intent)
     }
 }
