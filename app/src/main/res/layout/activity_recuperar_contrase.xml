@@ -60,10 +60,10 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintHorizontal_bias="0.199"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.371" />
+        app:layout_constraintVertical_bias="0.336" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -73,10 +73,10 @@
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintHorizontal_bias="0.299"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443" />
+        app:layout_constraintVertical_bias="0.408" />
 
     <Button
         android:id="@+id/button"
@@ -86,10 +86,9 @@
         android:text="Enviar Enlace"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.445"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.572" />
+        app:layout_constraintVertical_bias="0.533" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -97,8 +96,8 @@
         android:layout_height="48dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="381dp" />
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="460dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -106,8 +105,8 @@
         android:layout_height="48dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="381dp" />
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="460dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -116,8 +115,8 @@
         android:text="O"
         android:textAlignment="center"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="188dp"
-        tools:layout_editor_absoluteY="397dp" />
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="476dp" />
 
     <TextView
         android:id="@+id/textView4"
@@ -126,11 +125,12 @@
         android:text="Crear Cuenta Nueva"
         android:textAlignment="center"
         android:textColor="#171717"
-        android:textSize="14sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.833" />
+        app:layout_constraintVertical_bias="0.779" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
