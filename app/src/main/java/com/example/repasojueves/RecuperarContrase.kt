@@ -6,9 +6,13 @@ import android.widget.Toast
 import com.example.repasojueves.databinding.ActivityRecuperarContraseBinding
 
 class RecuperarContrase : AppCompatActivity() {
-   // private lateinit var binding: ActivityRecuperarContraseBinding
-    //private lateinit var firebaseAuth:FirebaseAuth
-    //override fun onCreate(savedInstanceState: Bundle?) {
+        override fun onCreate(savedInstanceState: Bundle?) {
+                super.onCreate(savedInstanceState)
+                setContentView(R.layout.activity_recuperar_contrase)
+        }
+        // private lateinit var binding: ActivityRecuperarContraseBinding
+         //private lateinit var firebaseAuth:FirebaseAuth
+        //override fun onCreate(savedInstanceState: Bundle?) {
         //binding=ActivityRecuperarContraseBinding.inflate(layoutInflater)
         //super.onCreate(savedInstanceState)
         //setContentView(binding.root)
