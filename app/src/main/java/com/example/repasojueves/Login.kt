@@ -7,16 +7,27 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.repasojueves.databinding.ActivityLoginBinding
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.ktx.Firebase
 
 class Login : AppCompatActivity() {
     private lateinit var binding:ActivityLoginBinding
+    private lateinit var firebaseauth:FirebaseAuth
+    private lateinit var authStateListener: FirebaseAuth.AuthStateListener
+    private val bd= FirebaseFirestore.getInstance()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding=ActivityLoginBinding.inflate(layoutInflater)
         val view=binding.root
         setContentView(view)
+        firebaseauth= Firebase.auth // EDITADO POR JULIANA - FIREBASE
         binding.btnlogin.setOnClickListener {
-            validar()
+            login(binding.txtusuario.text.toString(),binding.txtclave.text.toString()) // EDITADO POR JULIANA - FIREBASE
+        }
+        binding.btnrecuperarclave.setOnClickListener{
+            startActivity(Intent(this,RecuperarClave::class.java))
         }
     }
     fun validar(){
@@ -41,5 +52,27 @@ class Login : AppCompatActivity() {
         else{
             Toast.makeText(this,"Sus datos no son correctos",Toast.LENGTH_LONG).show()
         }
+    }
+
+    // EDITADO POR JULIANA - FIREBASE
+    private fun login(email:String,password:String){
+        firebaseauth.signInWithEmailAndPassword(email, password).addOnCompleteListener(this){task->
+            if (task.isSuccessful){
+                val id=firebaseauth.uid
+                Toast.makeText(this,"Datos correctos",Toast.LENGTH_LONG).show()
+                val intent=Intent(this,Usuario::class.java)
+                intent.putExtra("ide",id)
+                startActivity(intent)
+            }
+            else{
+                Toast.makeText(this,"El usuario no se encontró",Toast.LENGTH_LONG).show()
+
+            }
+        }
+
+    }
+
+    private fun consultardatos(id:String){
+        bd.collection("usuarios")
     }
 }

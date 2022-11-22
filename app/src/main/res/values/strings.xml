@@ -30,4 +30,9 @@
     <string name="image3">image1</string>
     <string name="detallar3">Detallar</string>
     <string name="contactar1">Contactar</string>
+    <string name="confirmar_contrase_a">Confirmar contraseña</string>
+    <string name="registrar">Registrar</string>
+    <string name="registro">Registro</string>
+    <string name="recuperar_contrase_a">Recuperar contraseña</string>
+    <string name="correo_recuperar_contrase_a">Correo recuperar contraseña</string>
 </resources>
