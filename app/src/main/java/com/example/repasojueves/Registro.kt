@@ -37,6 +37,8 @@ class Registro : AppCompatActivity() {
             val bundle=intent.extras
             val datoid:String?=bundle?.getString("id")
             guardardatosfirestore(datoid ?:"")
+            //Añadido por Andrey
+            startActivity(Intent(this,Login::class.java))
             Toast.makeText(this,"Datos guardados",Toast.LENGTH_LONG).show()
         }
     }

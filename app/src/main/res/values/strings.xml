@@ -35,4 +35,6 @@
     <string name="registro">Registro</string>
     <string name="recuperar_contrase_a">Recuperar contraseña</string>
     <string name="correo_recuperar_contrase_a">Correo recuperar contraseña</string>
+    <string name="Confirmarclave">Confirmar Clave</string>
+    <string name="Correo2">Correo</string>
 </resources>

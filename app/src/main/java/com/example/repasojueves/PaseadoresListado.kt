@@ -47,7 +47,7 @@ class PaseadoresListado : AppCompatActivity() {
                 ap.notifyDataSetChanged()
             }
         })
-        recycler=bindin.listarecycler
+        recycler=bindin.listrecycler
         recycler.layoutManager=LinearLayoutManager(this)
         recycler.setHasFixedSize(true)
         listap= mutableListOf()
