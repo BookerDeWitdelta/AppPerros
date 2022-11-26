@@ -18,6 +18,10 @@ class Usuario : AppCompatActivity() {
         // EDITADO POR JULIANA - FIREBASE
         val bundle=intent.extras
         val dato=bundle?.getString("ide") // EDITADO JULIANA - FIREBASE
+        //Agregado por Andrey
+        //val txt=binding.llegadato
+        //txt.setText(dato) //No `pner traera un codigo bien raro desde firebas
+        //
         consultarusuario(dato ?:"")
 
         //obtenerdatos()
