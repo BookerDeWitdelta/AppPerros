@@ -35,27 +35,29 @@
         app:srcCompat="@drawable/logo3" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
+        android:layout_width="382dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txtconfirclave"
-            android:layout_width="match_parent"
+            android:layout_width="382dp"
             android:layout_height="wrap_content"
             android:hint="@string/Confirmarclave" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout9"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
+        android:layout_width="382dp"
+        android:layout_height="55dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.303">
@@ -70,14 +72,14 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout8"
-        android:layout_width="409dp"
+        android:layout_width="382dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.401">
+        app:layout_constraintVertical_bias="0.397">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txtregistroclave"
@@ -97,6 +99,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.887" />
+        app:layout_constraintVertical_bias="0.685" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
