@@ -33,6 +33,7 @@ class PaseadoresListado : AppCompatActivity() {
         agregaradaptador()*/
 
         // EDITADO POR JULIANA - FIREBASE
+        val intent=Intent(this,DetallePaseador::class.java)
         db=FirebaseFirestore.getInstance()
         db.collection("paseadores").addSnapshotListener(object: EventListener<QuerySnapshot> {
             override fun onEvent(value: QuerySnapshot?, error: FirebaseFirestoreException?) {

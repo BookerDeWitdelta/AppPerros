@@ -37,4 +37,11 @@
     <string name="correo_recuperar_contrase_a">Correo recuperar contraseña</string>
     <string name="Confirmarclave">Confirmar Clave</string>
     <string name="Correo2">Correo</string>
+    <string name="paseandog">PaseanDog</string>
+    <string name="registrar2">Registrar</string>
+    <string name="logo">logo</string>
+    <string name="textview">texto</string>
+    <string name="celular">CELULAR</string>
+    <string name="correo">CORREO</string>
+    <string name="logoapp">logo</string>
 </resources>

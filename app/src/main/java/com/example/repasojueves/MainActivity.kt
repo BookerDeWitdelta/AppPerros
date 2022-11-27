@@ -3,7 +3,6 @@ package com.example.repasojueves
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import com.example.repasojueves.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         binding=ActivityMainBinding.inflate(layoutInflater)
         val view=binding.root
         setContentView(view)
+
         binding.btnsomos.setOnClickListener{
             startActivity(Intent(this,Somos::class.java))
         }

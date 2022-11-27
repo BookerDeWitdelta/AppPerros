@@ -36,6 +36,7 @@ class Login : AppCompatActivity() {
         val datos=getSharedPreferences("bdusuario",Context.MODE_PRIVATE)
         val usu=datos.getString("usuario","")
         val cla=datos.getString("clave","")
+
         if(txtusu.isEmpty()){
             binding.txtusuario.setHint("Ingresar el usuario")
         }
@@ -66,7 +67,6 @@ class Login : AppCompatActivity() {
             }
             else{
                 Toast.makeText(this,"El usuario no se encontró",Toast.LENGTH_LONG).show()
-
             }
         }
 
